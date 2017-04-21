@@ -2,6 +2,9 @@
 title: Everbigger
 timezone: UTC
 collections:
+  lessons:
+    title: Lessons
+    output: true
   posts:
     title: Posts
     output: true
