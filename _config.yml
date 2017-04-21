@@ -3,7 +3,7 @@ title: Everbigger
 timezone: UTC
 collections:
   lessons:
-    title: Lessons
+    title: Design
     output: true
   posts:
     title: Posts
