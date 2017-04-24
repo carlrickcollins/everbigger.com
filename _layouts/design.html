@@ -27,12 +27,13 @@
     {% for slide in page["Slides"] %}
       
       <div class="leftColumn">
-        <a href="{{slide.left-column-image-url}}"><img src="{{ slide["left-column-image"] }}" alt="{{ slide.left-column-image-alt }}"/></a>
-        {{ slide.left-column-body }}
+
+        <a href="{{ slide["slide"]["left-column-image-url"] }}"><img src="{{ slide["slide"]["left-column-image"] }}" alt="{{ slide["slide"]["left-column-image-alt" }}"/></a>
+        {{ slide["slide"]["left-column-body"] }}
       </div>
         
       <div class="rightColumn">
-        {{ slide.right-column-body }}
+        {{ slide ["slide"]["right-column-body"] }}
       </div>
 
    {% endfor %}
