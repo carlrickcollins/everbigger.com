@@ -15,6 +15,14 @@ Slides:
     right-column-body: |-
       ## This is how our future is working out.
       It's pretty great, isn't it?
+- slide:
+    left-column-image: "/uploads/C-HXt5zXoAAuOwp.jpg"
+    left-column-image-url: 
+    left-column-body: Trial by comedy
+    right-column-body: |-
+      ## We did this to ourselves
+
+      Let him fight!
 layout: design
 ---
 
