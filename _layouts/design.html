@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Responsive Two Column Layout (Left Column Fluid)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  
+  <body>
+    <h1>Responsive Two Column Layout (Left Column Fluid)</h1>
+    
+    <header>
+       <nav>
+          <ul class="nav inline-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">My Trips</a></li>
+         </ul>
+      </nav>
+    </header>
+
+    <div class="columnsContainer">
+
+    {% for slide in slides %}
+      
+      <div class="leftColumn">
+        <a href="{{slide.left-column-image-url}}"><img src="{{ slide["left-column-image"] }}" alt="{{ slide.left-column-image-alt }}"/></a>
+        {{ slide.left-column-body }}
+      </div>
+        
+      <div class="rightColumn">
+        {{ slide.right-column-body }}
+      </div>
+
+   {% endfor %}
+    </div>
+ 
+
+    <footer>
+      <p><a href="#">Contact Us</a> | <a href="#">Sitemap</a> | <a href="#">Privacy Policy</a></p>
+      <p>&copy;2014 Copyright info here...</p>
+    </footer>
+
+  </body>
+</html>
