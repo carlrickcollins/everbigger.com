@@ -6,7 +6,7 @@ body { max-width: 1640px; margin: auto; padding: 1.25em; }
 
 .columnsContainer, footer, header { position: relative; }
 
-.leftColumn { padding-left: 0; padding-right: 1.25em; height: 400px; overflow: hidden;}
+.leftColumn { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden;}
 
 .rightColumn { padding: 1.25em; }
 
