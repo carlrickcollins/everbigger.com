@@ -15,5 +15,6 @@ Slides:
     right-column-body: |-
       ## This is how our future is working out.
       It's pretty great, isn't it?
+layout: design
 ---
 
