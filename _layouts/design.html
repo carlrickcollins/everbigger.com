@@ -29,11 +29,11 @@
       <div class="leftColumn">
 
         <a href="{{ slide["slide"]["left-column-image-url"] }}"><img src="{{ slide["slide"]["left-column-image"] }}" alt="{{ slide["slide"]["left-column-image-alt" }}"/></a>
-        {{ slide["slide"]["left-column-body"] }}
+        {{ slide["slide"]["left-column-body"] | markdownify }}
       </div>
         
       <div class="rightColumn">
-        {{ slide ["slide"]["right-column-body"] }}
+        {{ slide ["slide"]["right-column-body"] | markdownify }}
       </div>
 
    {% endfor %}
