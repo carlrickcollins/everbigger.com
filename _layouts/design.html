@@ -28,7 +28,7 @@
 
       
       <div class="leftColumn">
-        {% if ["is image slide"] = true %} 
+        {% if slide["is image slide"] == 'true' %} 
         <a href="{{ slide["slide"]["left-column-image-url"] }}"><img src="{{ slide["slide"]["left-column-image"] }}" alt="{{ slide["slide"]["left-column-image-alt" }}"/></a>
         {% else %}
         {{ slide ["slide"]["left-column-body"] | markdownify }}
