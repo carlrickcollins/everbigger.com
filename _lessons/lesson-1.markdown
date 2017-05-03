@@ -3,12 +3,14 @@ title: Lesson 1
 date: 2017-04-24 14:11:00 Z
 Slides:
 - slide:
+    is image slide: true
     left-column-image: "/uploads/spongebob-the-wave.gif"
     left-column-image-url: 
     left-column-body: 
     right-column-body: "## We are very happy to be here today  \nAnd this is the story
       of what happens next.\n\n"
 - slide:
+    is image slide: true
     left-column-image: "/uploads/busted-phone-usb-mouse.png"
     left-column-image-url: https://twitter.com/alfiedotwtf/status/855249834785161216
     left-column-body: Magic from twitter
@@ -16,6 +18,7 @@ Slides:
       ## This is how our future is working out.
       It's pretty great, isn't it?
 - slide:
+    is image slide: true
     left-column-image: "/uploads/TalismanicObjectsLogo_wEmbeddedPOlogo-copy.jpg"
     left-column-image-url: 
     left-column-body: 
