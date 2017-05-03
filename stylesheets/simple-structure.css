@@ -6,15 +6,14 @@ body { max-width: 1640px; margin: auto; padding: 1.25em; }
 
 .columnsContainer, footer, header { position: relative; }
 
-.leftColumn { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden;}
+.leftColumn-image { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden; margin-bottom: .5em; }
+.leftColumn-other { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden; margin-bottom: .5em; background-color: blue; color: white;}
 
 .rightColumn { padding: 1.25em; }
 
 twitterwidget.twitter-tweet.twitter-tweet-rendered { margin: 0 auto; }
 
 footer, header {  padding: 1.25em; }
-
-.leftColumn { margin-bottom: .5em; }
 
 .nav {
   list-style: none;
