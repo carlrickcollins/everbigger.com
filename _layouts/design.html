@@ -25,7 +25,7 @@
     {% for slide in page["Slides"] %}
     <div class="columnsContainer">
 
-      {% if slide["is image slide"] == true %} 
+      {% if ["is image slide"] == true %} 
       <div class="leftColumn">
         <a href="{{ slide["slide"]["left-column-image-url"] }}"><img src="{{ slide["slide"]["left-column-image"] }}" alt="{{ slide["slide"]["left-column-image-alt" }}"/></a>
       </div> 
