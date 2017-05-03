@@ -23,6 +23,13 @@ Slides:
       ## We did this to ourselves
 
       Let him fight!
+- slide:
+    left-column-image: 
+    left-column-image-url: 
+    left-column-body: |-
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">For all my cynicism, this is still one of my favourite gifs ever <a href="https://t.co/IswcrXGYF8">pic.twitter.com/IswcrXGYF8</a></p>&mdash; Prop J Farrers (@Jfarrers) <a href="https://twitter.com/Jfarrers/status/859655563822718976">May 3, 2017</a></blockquote>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    right-column-body: Watch him go!
 layout: design
 ---
 
