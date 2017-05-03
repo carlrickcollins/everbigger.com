@@ -46,7 +46,9 @@ Slides:
     left-column-body: |-
       ## Dr. Nick is here.
       Hi everybody - it's Dr. Nick
-    right-column-body: 
+    right-column-body: |-
+      ## We don't know why he is here, but
+      Dr. Nick is a character from the TV show the Simpsons.
     is image slide: false
     image-url: 
     image: 
