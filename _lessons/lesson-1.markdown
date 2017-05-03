@@ -5,7 +5,7 @@ Slides:
 - slide:
     left-column-image: "/uploads/spongebob-the-wave.gif"
     left-column-image-url: 
-    left-column-body: this is an image of sponge bob square pants
+    left-column-body: 
     right-column-body: "## We are very happy to be here today  \nAnd this is the story
       of what happens next.\n\n"
 - slide:
@@ -24,6 +24,7 @@ Slides:
 
       Let him fight!
 - slide:
+    is image slide: false
     left-column-image: 
     left-column-image-url: 
     left-column-body: |-
