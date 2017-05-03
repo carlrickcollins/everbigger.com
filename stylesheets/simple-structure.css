@@ -6,8 +6,9 @@ body { max-width: 1640px; margin: auto; padding: 1.25em; }
 
 .columnsContainer, footer, header { position: relative; }
 
-.leftColumn-image, .leftColumn-text, .leftColumn-embed { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden; margin-bottom: .5em; }
-.leftColumn-text { background-color: blue; color: white;}
+.leftColumn { padding-left: 0; padding-right: 1.25em; max-height: 400px; overflow: hidden; margin-bottom: .5em; }
+
+.text { padding: 1.25em; background-color: blue; color: white; max-width: 100%;}
 
 .rightColumn { padding: 1.25em; }
 
@@ -22,7 +23,7 @@ footer, header {  padding: 1.25em; }
   padding-left: 0;
 }
 
-.leftColumn-image img {
+.leftColumn img {
  width:100%;
  object-fit: cover;
 }
@@ -58,7 +59,7 @@ footer, header {  padding: 1.25em; }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 47.5em ) {
-  .leftColumn-image, .leftColumn-other { margin-right: 50%; }
+  .leftColumn { margin-right: 50%; }
   
   .rightColumn { position: absolute; top: 0; right: 0; width: 50%; }   
 }
