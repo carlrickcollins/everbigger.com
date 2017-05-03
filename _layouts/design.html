@@ -26,16 +26,16 @@
     <div class="columnsContainer">
 
       {% if slide ["slide"]["is image slide"] == true %} 
-      <div class="leftColumn-image">
+      <div class="leftColumn">
         <a href="{{ slide["slide"]["image-url"] }}"><img src="{{ slide["slide"]["image"] }}" alt="{{ slide["slide"]["image-alt" }}"/></a>
       </div>       
       {% else if slide ["slide"]["is image slide"] == false %} 
       {% if slide ["slide"]["is embed"] == true %}
-      <div class="leftColumn-embed">
+      <div class="leftColumn">
       {{ slide ["slide"]["left-column-body"] | markdownify }}
       </div>
       {% else ["slide"]["is embed"] == false %}
-      <div class="leftColumn-text">
+      <div class="leftColumn text">
       {{ slide ["slide"]["left-column-body"] | markdownify }}
       </div>
       {% endif %}
