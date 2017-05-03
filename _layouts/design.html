@@ -25,16 +25,16 @@
     {% for slide in page["Slides"] %}
     <div class="columnsContainer">
 
-
-      
+      {% if slide["is image slide"] == 'true' %} 
       <div class="leftColumn">
-        {% if slide["is image slide"] == 'true' %} 
         <a href="{{ slide["slide"]["left-column-image-url"] }}"><img src="{{ slide["slide"]["left-column-image"] }}" alt="{{ slide["slide"]["left-column-image-alt" }}"/></a>
-        {% else %}
-        {{ slide ["slide"]["left-column-body"] | markdownify }}
-        {% endif %}
+      </div> 
+      {% else %}
+      <div class="leftColumn">
+      {{ slide ["slide"]["left-column-body"] | markdownify }}
       </div>
-        
+      {% endif %}
+      
       <div class="rightColumn">
         {{ slide ["slide"]["right-column-body"] | markdownify }}
       </div>
